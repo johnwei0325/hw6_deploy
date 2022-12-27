@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "server": "nodemon src/server.js --ext js --watch src --exec babel-node",
+    "deploy":"NODE_ENV=production babel-node src/server.js"
+  },
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
@@ -15,8 +19,5 @@
     "@babel/core": "^7.20.2",
     "@babel/node": "^7.20.2",
     "@babel/preset-env": "^7.20.2"
-  },"scripts": {
-    "server": "nodemon src/server.js --ext js --watch src --exec babel-node",
-    "deploy":"NODE_ENV=production babel-node src/server.js"
   }
 }
