@@ -1,0 +1,32 @@
+Arguments: 
+  /home/jeff/.nvm/versions/node/v16.17.1/bin/node /home/jeff/.yarn/bin/yarn.js add cors express nodemon
+
+PATH: 
+  /home/jeff/.yarn/bin:/home/jeff/.config/yarn/global/node_modules/.bin:/home/jeff/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/bin/remote-cli:/home/jeff/.yarn/bin:/home/jeff/.config/yarn/global/node_modules/.bin:/home/jeff/.nvm/versions/node/v16.17.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/TortoiseGit/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Vim/vim90:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/方世昕/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/方世昕/AppData/Local/Programs/Python/Python39/Scripts:/mnt/c/Users/方世昕/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/CLion 2021.2.2/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/Vim/vim90:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect ECONNREFUSED 108.162.193.72:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
